@@ -8,7 +8,7 @@ def simple():
 
 
 def workin_with_list(lista):
-    # Vamos a ordenar la lista de mayor a menor segun la edad
+    # Vamos a ordenar la lista en orden descendente segun la edad
     list_sorted = sorted(lista, key=lambda k: k['edad'], reverse=True)
 
     print(list_sorted[0]["id"])
