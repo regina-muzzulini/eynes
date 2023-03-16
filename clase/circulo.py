@@ -4,7 +4,7 @@ import math
 class Circulo:
     def __init__(self, radio=0):
         self.radio = radio if radio > 0 else print(
-            "El radio no debe ser negativo.")
+            "El radio no puede ser negativo.")
 
     # Getters (metodos GET)
     def get_Radio(self):
