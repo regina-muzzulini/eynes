@@ -17,7 +17,7 @@ def workin_with_list(lista):
 
 
 def main():
-    workin_with_list(simple())
+    print(workin_with_list(simple()))
 
 
 if __name__ == '__main__':
